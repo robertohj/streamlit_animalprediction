@@ -14,7 +14,8 @@ def predict(img_url):
     return response
 
 st.title("Animal prediction")
-st.markdown("**[MLZoomcamp 2023](https://github.com/DataTalksClub/machine-learning-zoomcamp/?tab=readme-ov-file#readme)** (c) robertohj@gmail.com")
+st.markdown("**[Project repo](https://github.com/DataTalksClub/machine-learning-zoomcamp/?tab=readme-ov-file#readme)** (c) robertohj@gmail.com")
+st.markdown("**[Course repo (MLZoomcamp 2023)](https://github.com/DataTalksClub/machine-learning-zoomcamp/?tab=readme-ov-file#readme)**")
 st.write("Select an option to expand")
 with st.expander("**Use custom Img URL (may fail with some urls due to formatting)**"):
     with st.form("custom_url_form", clear_on_submit=True):
