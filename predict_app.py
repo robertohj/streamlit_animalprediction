@@ -1,7 +1,6 @@
 import streamlit as st
 import urllib
 import requests
-from tempfile import NamedTemporaryFile
 from streamlit_image_select import image_select
 
 def predict(img_url):
